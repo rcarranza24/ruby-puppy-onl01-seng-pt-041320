@@ -10,6 +10,6 @@ class Dog
 
   def self.all
     @@all.each do |dog|
-      puts dog.puppy 
+      puts dog.puppy
   end
 end 
