@@ -11,4 +11,11 @@ class Dog
   def self.all
     @@all
   end
+
+  def clear.all
+    @@all 
+  end 
+ def print.all 
+   @@all 
+ end
 end
