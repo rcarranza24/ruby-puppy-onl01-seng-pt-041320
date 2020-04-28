@@ -9,13 +9,7 @@ class Dog
   end
 
   def self.all
-    @@all
+    @@all.each do |dog|
+      puts dog.puppy 
   end
-
-  def clear.all
-    @@all
-  end
- def print.all
-   @@all
- end
-end
+end 
